@@ -8,6 +8,7 @@ public class Main {
      Book firstBook = new Book("Сказки", first, 2010);
      Book secondBook = new Book("Стихи", second, 1995);
      firstBook.setYearOfPublication(2020);
+     System.out.println(firstBook);
+     System.out.println(secondBook);
     }
-
 }
